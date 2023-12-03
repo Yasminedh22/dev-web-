@@ -1,0 +1,139 @@
+/* styles.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: ##f2f2f2; 
+    color: #666;
+}
+
+header {
+  background-color: #ffb6c1; 
+  color: #808080; 
+  padding: 20px;
+  
+}
+
+h1, h2 {
+  margin: 0;
+  color: #7d1655; 
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+td {
+  padding: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 128, 171, 0.3); 
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc; /* Light Gray Border */
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  background-color: #666; /* Dark Gray */
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Hover effect on links */
+a {
+  color: #705e69; /* Pink */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #ff5471; /* Lighter Pink on hover */
+}
+
+/* General section styling */
+section {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fff; /* White Background */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+#contact-form textarea {
+  border: 2px solid #ff80ab; /* Pink Border */
+}
+
+/* Submit button styling */
+#contact-form input[type="submit"] {
+  background-color: #ff80ab; /* Pink */
+  color: #fff;
+}
+
+/* Contact info section */
+#contact-info {
+  background-color: #f9f9f9; /* Light Gray Background */
+}
+
+/* Personal info section */
+#personal-info {
+  border: 2px solid #ffc0cb; /* Light Pink Border */
+  background-color: #fff5f7; /* Very Light Pink Background */
+}
+
+/* Language list styling */
+#personal-info ul {
+  padding-left: 20px;
+}
+
+/* Skills list styling */
+#personal-info ul: {
+  list-style: none;
+}
+
+#personal-info ul: li {
+  margin-left: 20px;
+}
+
+/* Project list section */
+#project-list {
+  background-color: #f9f9f9; }
+
+/* Project list item styling */
+#project-list h2 {
+  color: #7d1655; 
+}
+
+
+/* Project images styling */
+#project-list img {
+  margin-top: 10px;
+}
