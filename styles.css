@@ -1,4 +1,3 @@
-/* styles.css */
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -52,12 +51,12 @@ input, textarea {
   padding: 15px;
   margin-bottom: 20px;
   box-sizing: border-box;
-  border: 2px solid #ccc; /* Light Gray Border */
+  border: 2px solid #ccc; 
   border-radius: 10px;
 }
 
 input[type="submit"] {
-  background-color: #666; /* Dark Gray */
+  background-color: #666; 
   color: #fff;
   cursor: pointer;
   border: none;
@@ -67,54 +66,52 @@ p {
   margin-bottom: 20px;
 }
 
-/* Hover effect on links */
 a {
-  color: #705e69; /* Pink */
+  color: #705e69; 
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
 
 a:hover {
-  color: #ff5471; /* Lighter Pink on hover */
+  color: #ff5471;
 }
 
-/* General section styling */
 section {
   padding: 20px;
   margin: 20px 0;
-  background-color: #fff; /* White Background */
+  background-color: #fff; 
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 
 #contact-form textarea {
-  border: 2px solid #ff80ab; /* Pink Border */
+  border: 2px solid #ff80ab; 
 }
 
-/* Submit button styling */
+
 #contact-form input[type="submit"] {
-  background-color: #ff80ab; /* Pink */
+  background-color: #ff80ab; 
   color: #fff;
 }
 
-/* Contact info section */
+
 #contact-info {
-  background-color: #f9f9f9; /* Light Gray Background */
+  background-color: #f9f9f9; 
 }
 
-/* Personal info section */
+
 #personal-info {
-  border: 2px solid #ffc0cb; /* Light Pink Border */
-  background-color: #fff5f7; /* Very Light Pink Background */
+  border: 2px solid #ffc0cb;
+  background-color: #fff5f7; 
 }
 
-/* Language list styling */
+
 #personal-info ul {
   padding-left: 20px;
 }
 
-/* Skills list styling */
+
 #personal-info ul: {
   list-style: none;
 }
@@ -123,17 +120,17 @@ section {
   margin-left: 20px;
 }
 
-/* Project list section */
+
 #project-list {
   background-color: #f9f9f9; }
 
-/* Project list item styling */
+
 #project-list h2 {
   color: #7d1655; 
 }
 
 
-/* Project images styling */
+
 #project-list img {
   margin-top: 10px;
 }
